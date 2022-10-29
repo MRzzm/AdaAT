@@ -40,12 +40,15 @@ python compute_metrics.py --inference_img_dir --real_img_dir=./deepFashion/fashi
 # Citation
 If you use AdaAT operator in your work, please cite
 
->@inproceedings{zhang2022adaptive,
+```
+@inproceedings{zhang2022adaptive,
   title={Adaptive Affine Transformation: A Simple and Effective Operation for Spatial Misaligned Image Generation},
   author={Zhang, Zhimeng and Ding, Yu},
   booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
   pages={1167--1176},
   year={2022}
 }
+```
+
 # Acknowledgement
 The basic modules are borrowed from [first-order-model](https://github.com/AliaksandrSiarohin/first-order-model), thanks for their contributions.
