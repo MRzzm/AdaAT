@@ -1,0 +1,6 @@
+lpips==0.1.4
+numpy==1.19.5
+opencv_python==4.6.0.66
+pytorch_ssim==0.1
+torch==1.7.1+cu101
+torchvision==0.8.2+cu101
