@@ -97,7 +97,7 @@ class FaceInference512Options(BaseOptions):
         self.parser.add_argument('--img_size', type=int, default=512, help='the size of img')
         self.parser.add_argument('--source_img_path', type=str, default="./assert/example_face_source_img.jpg",
                             help='path of source image')
-        self.parser.add_argument('--driving_audio_path', type=str, default="./assert/audio/Obam_03.wav",
+        self.parser.add_argument('--driving_audio_path', type=str, default="./assert/",
                                  help='path of driving audio in taling face generation')
         self.parser.add_argument('--mouth_model_path', type=str, default="./assert/audio2animation_mouth.pth",
                                  help='pretrained model of mouth animation generator')
@@ -109,7 +109,7 @@ class FaceInference512Options(BaseOptions):
                                  help='set emotion in animation generator,including angry,happy,neutral,surprise')
         self.parser.add_argument('--deep_speech_model_path', type=str, default="./assert/deep_speech.pb",
                                  help='pretrained model of deep speech feature extractor')
-        self.parser.add_argument('--res_face_path', type=str, default="./assert/audio/Obam_03.mp4",
+        self.parser.add_argument('--res_face_path', type=str, default="./assert/",
                                  help='path of output face video')
         return self.parser.parse_args()
 

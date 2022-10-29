@@ -35,7 +35,7 @@ python inference_person_image.py --inference_model_path=./assert/person_epoch_30
 ### Compute metrics
 To compute the metrics of SSIM and LIPIS on deep fashion test data, run
 ```python 
-python metrics_person.py --inference_img_dir --real_img_dir=./deepFashion/fashion_data/test --task_type=person
+python compute_metrics.py --inference_img_dir --real_img_dir=./deepFashion/fashion_data/test --task_type=person
 ```
 # Citation
 If you use AdaAT operator in your work, please cite
