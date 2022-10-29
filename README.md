@@ -1,20 +1,23 @@
 # Adaptive Affine Transformation: A Simple and Effective Operation for Spatial Misaligned Image Generation. (accepted in MM2022)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f2a394c4a2dd4e738caffa9c2c2b5f91.png#pic_center)
+
 Paper    [Demo video](https://www.youtube.com/watch?v=OJtGbsMWZ3I)    Supplementary materials
 
 # Face
 I'm preparing face related codes.
 # Person image generation
-### Download resources (pretrained model etc.)
-Download resources in [Google drive](https://drive.google.com/drive/folders/1g97_HTqCex7QKEofYklNtCfvPAKxu3bP?usp=sharing), including:
-**person_epoch_30.pth:** Pretrained model on deep fashion dataset stopped in 30 epoch.
-**person_epoch_40.pth:** Pretrained model on deep fashion dataset stopped in 40 epoch (has better performance than "person_epoch_30.pth").
-**test_image_person_deepFashion_30epoch.zip:** Inference images of "person_epoch_30.pth" on deep fashion test data for convenient comparisons.
-**test_image_person_deepFashion_40epoch.zip:** Inference images of "person_epoch_40.pth" on deep fashion test data for convenient comparisons.
-**example_person_source_img.jpg:** Source example image for person image generation.
-**example_person_souce_kp.txt:** Source example key points for person image generation.
-**example_person_target_kp.txt:** Target example key points for person image generation.
-**example_person_inference_img.jpg:** Inference example image for person image generation.
-**fasion_train_data.json:**   Training json file of deep fashion dataset.
+### Download resources (pretrained model etc.) 
+Download resources in [Google drive](https://drive.google.com/drive/folders/1g97_HTqCex7QKEofYklNtCfvPAKxu3bP?usp=sharing), including: 
+
++ **person_epoch_30.pth:** Pretrained model on deep fashion dataset stopped in 30 epoch.
++ **person_epoch_40.pth:** Pretrained model on deep fashion dataset stopped in 40 epoch (has better performance than "person_epoch_30.pth").
++ **test_image_person_deepFashion_30epoch.zip:** Inference images of "person_epoch_30.pth" on deep fashion test data for convenient comparisons.
++ **test_image_person_deepFashion_40epoch.zip:** Inference images of "person_epoch_40.pth" on deep fashion test data for convenient comparisons.
++ **example_person_source_img.jpg:** Source example image for person image generation.
++ **example_person_souce_kp.txt:** Source example key points for person image generation.
++ **example_person_target_kp.txt:** Target example key points for person image generation.
++ **example_person_inference_img.jpg:** Inference example image for person image generation.
++ **fasion_train_data.json:**   Training json file of deep fashion dataset.\
 
 ### Train on deep fashion dataset
 1. Download deep fashion dataset from [here](http://disi.unitn.it/~hao.tang/uploads/datasets/SelectionGAN/fashion_data.tar.gz). We use the dataset as same as in [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN).
