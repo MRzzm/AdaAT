@@ -1,7 +1,7 @@
 # Adaptive Affine Transformation: A Simple and Effective Operation for Spatial Misaligned Image Generation. (accepted in MM2022)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/f2a394c4a2dd4e738caffa9c2c2b5f91.png#pic_center)
 
-Paper    [Demo video](https://www.youtube.com/watch?v=OJtGbsMWZ3I)    Supplementary materials
+Paper    [Demo video](https://www.youtube.com/watch?v=OJtGbsMWZ3I)    [Supplementary materials](https://github.com/MRzzm/AdaAT/blob/main/supplementary_materials.pdf)
 
 # Face
 I'm preparing face related codes.
